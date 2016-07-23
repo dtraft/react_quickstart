@@ -1,0 +1,12 @@
+react:
+  version: 15.2.1
+  js:
+    static/node_modules/react/dist/react.js: {}
+    static/node_modules/react-dom/dist/react-dom.js: {}
+
+clock:
+  version: 1.x
+  js:
+    static/dist/clock.bundle.js: {}
+  dependencies:
+    - react_quickstart/react
